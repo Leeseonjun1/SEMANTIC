@@ -1,0 +1,55 @@
+.d-none{
+    display: none; /*표시안함*/
+}
+#header{
+    background-color: #4792D8;
+    text-align: center;
+    padding:50px 0;
+}
+#header h2 {
+color: white;
+font-size: 50px;
+}
+#header h2:first-letter{
+    font-size: 70px;
+}
+#header{
+    text-align: center;
+    font-size: 30px;
+}
+#menu{
+    background-color: #2D2727;
+    padding:15px 0;
+    text-align: center;
+
+}
+#menu{
+    margin: 0 10px;
+    text-decoration: none;
+    color:white;
+
+}
+.main{
+    display:flex; /*정렬*/
+    max-width: 1440px;
+    min-height: 2000px;
+    margin: 50px auto;
+}
+.main #content{
+    flex: 7;
+    background-color: gray;
+}
+.main #sub{
+    flex:3;
+    background-color: lightyellow;
+}
+
+#footer{
+    background-color: #4792D8;
+    padding: 50px;
+    color: white
+}
+.footer-wrap{
+    text-align: center;
+
+}
